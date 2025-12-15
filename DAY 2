@@ -1,0 +1,22 @@
+
+""""
+approved_ids = ["A101", "B205", "C303", "D410"]
+employee_id = input("Enter_employee_id")
+print(employee_id in approved_ids)
+print("Z999" not in approved_ids)
+"""
+'''
+balance = 1000.00
+deposit = 250.00
+service_fee = 10.50
+interest_rate = 1.05  
+
+balance += deposit
+balance -= service_fee
+balance *= interest_rate
+shares = balance
+shares //= 100
+
+print("Balance after updates:", balance)
+print("Full $100 shares:", shares)
+'''
